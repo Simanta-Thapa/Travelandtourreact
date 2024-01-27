@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+.websitelogo img{
+    border-radius: 50%;
+}
+
+
+.lastchildlink{
+    border-radius: 30px;
+}
+
+.mobilenavbarcontentlist{
+    right:-100%;
+    transition: 2s;
+}
+
+
+#mobile-navbar.showmenu{
+    right:0;
+}
+
+
+@media(max-width:600px){
+    .laptopnavbar{
+        display: none;
+    }
+
+  
+}
+
+
+@media (min-width:601px){
+    .laptopnavbar{
+        display: block;
+    }
+
+    .mobilenavbar{
+        display: none;
+    }
+}
